@@ -1,4 +1,6 @@
-# phpIPAM
+# phpIPAM bind zonefile generator
+
+This script fetches hosts from phpipam and adds them to your zonefiles and then reloads bind if changes have occured.
 
 ## Instuctions for use
 
