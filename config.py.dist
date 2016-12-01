@@ -1,0 +1,23 @@
+
+# generate these in the phpipam web ui under
+# Administration->IPAM settings->API Management->Create API key
+phpipam_url = 'example.com'
+phpipam_appid = ''
+phpipam_appcode = ''
+
+# networks to operate on
+nets=[
+        ('192.168.1.0', '24'),
+        ('192.168.2.0', '24'),
+        ('192.168.254.0', '24'),
+]
+
+# directory to put the actual zone file
+bind_dir="/var/lib/bind/"
+# generation directory used to compare zone file
+bind_gen="/var/lib/bind/gen/")
+
+# name of forward and reverse zonefile
+forward_file="db.example.com"
+reverse_file="db.168.192.in-addr.arpa"
+
