@@ -3,7 +3,8 @@
 # Administration->IPAM settings->API Management->Create API key
 phpipam_url = 'example.com'
 phpipam_appid = ''
-phpipam_appcode = ''
+phpipam_user = ''
+phpipam_pass = ''
 
 # networks to operate on
 nets=[
